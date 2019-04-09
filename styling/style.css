@@ -1,0 +1,30 @@
+
+body{
+    color: #5a5a5a;
+}
+
+.navbar-wrapper{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 20;
+}
+
+.carousel{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.caousel-inner > .item > img{
+    position: absolute;
+    height: 500px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.carousel .item{
+    height: 500px;
+    background-color: #777;
+}
