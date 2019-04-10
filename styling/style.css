@@ -1,5 +1,6 @@
 
 body{
+    padding-bottom: 20px;
     color: #5a5a5a;
 }
 
@@ -9,6 +10,20 @@ body{
     right: 0px;
     left: 0px;
     z-index: 20;
+}
+
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+.navbar-wrapper .navbar{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbbar-wrapper > .container {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .carousel{
@@ -27,4 +42,22 @@ body{
 .carousel .item{
     height: 500px;
     background-color: #777;
+}
+
+.team .col-lg-4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team h2{
+    color: rgba(50, 50, 50, 0.8);
+}
+
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    margin: 5px 0px;
 }
