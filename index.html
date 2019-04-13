@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styling/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="scripting/parallax.js"></script>
+
     <title>Pokemon</title>
   </head>
   <body>
@@ -67,9 +71,8 @@
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
 
-      
 
-      <div class="carousel-inner">
+      <div class="carousel-inner" >
         <div class="carousel-item active">
           <img class="d-block w-100" src="images/slide_1.jpg" alt="First slide">
 
@@ -127,36 +130,116 @@
 
     <!-- carousel ends here -->
 
+    <hr class=".divider">
+    
 
-    <!-- team section starts here -->
+      <!-- team section starts here -->
 
-    <div class="container team">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="images/c_1.jpg" alt="child 1 image" height="140" width="140">
-          <h2>Team Member 1</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
-          <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
+      <div class="parallex-one" data-parallax="scroll" data-image-src="images/parallex_one.jpg">
+
+        <div class="container team">
+          <div class="row" >
+            <div class="col-md-4">
+              <img src="images/c_1.jpg" alt="child 1 image"  class="resize" >
+              <h2>Team Member 1</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
+              <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/c_1.jpg" alt="child 2 image" class="resize">
+              <h2>Team Member 2</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
+              <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/c_1.jpg" alt="child 3 image" class="resize">
+              <h2>Team Member 3</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
+              <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img src="images/c_1.jpg" alt="child 2 image" height="140" width="140">
-          <h2>Team Member 1</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
-          <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="images/c_1.jpg" alt="child 3 image" height="140" width="140">
-          <h2>Team Member 1</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, aliquid?</p>
-          <p><a href="#" class="btn btn-primary"> Sign up &raquo;</a></p>
-        </div>
+        
       </div>
-    </div>
+
+    
 
     <!-- team section ends here -->
+    <hr class=".divider">
+    <!-- content section starts here -->
+
+    
+
+    <div class="parallex-two" data-parallax="scroll" data-image-src="images/parallex_two.jpg">
+
+      <div class="row content">
+        <div class="col-md-7 mickey">
+          <h2 class="content-heading">First Heading goes here <span class="text-muted"> this looks great</span>
+          </h2>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Quibusdam harum cum, perferendis minus, 
+            culpa tempore velit provident ipsa veritatis quia voluptas enim 
+            modi nisi dolor temporibus iusto ut laborum! Sed.</p>
+  
+        </div>
+        <div class="col-md-5">
+          <img src="images/c_3.jpg" alt="playing kid" class="content-image img-responsive center-block">
+        </div>
+      </div>
+
+    </div>
+
+    
 
     <hr class=".divider">
 
+<div class="parallex-three"  data-parallax="scroll" data-image-src="images/parallex_one.jpg">
+
+  <div class="row content">
+    <div class="col-md-5">
+        <img src="images/c_3.jpg" alt="playing kid" class="content-image img-responsive center-block" height="350" width="400">
+      </div>
+
+      <div class="col-md-7">
+          <h2 class="content-heading">First Heading goes here <span class="text-muted"> this looks great</span>
+          </h2>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Quibusdam harum cum, perferendis minus, 
+            culpa tempore velit provident ipsa veritatis quia voluptas enim 
+            modi nisi dolor temporibus iusto ut laborum! Sed.</p>
+        </div>
+</div>
+
+</div>
+
+    <hr class=".divider">
+
+<div class="parallex-four" data-parallax="scroll" data-image-src="images/parallex_two.jpg">
+
+  <div class="row content">
+    <div class="col-md-7 mickey">
+      <h2 class="content-heading">First Heading goes here <span class="text-muted"> this looks great</span>
+      </h2>
+      <p>Lorem, ipsum dolor sit amet consectetur 
+        adipisicing elit. Quibusdam harum cum, perferendis minus, 
+        culpa tempore velit provident ipsa veritatis quia voluptas enim 
+        modi nisi dolor temporibus iusto ut laborum! Sed.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="images/c_3.jpg" alt="playing kid" class="content-image img-responsive center-block">
+    </div>
+  </div>
+
+</div>
+
+    
+
+      <!-- content section ends here -->
+
+
+
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -164,5 +247,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="scripting/script.js"></script>
+
+    
+
   </body>
 </html>
